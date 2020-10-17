@@ -17,12 +17,13 @@ if(connection) {
 }
 
 // const {listEmployees, listEmployeesManager, listEmployeesTitle, listEmployeesDepartment} = require('./lib/Employees.js');
-//view all employees
 
 //View all roles
 listRoles = () => {
   console.log("All Employees");
-  connection.query(`SELECT * FROM role`, function(err, res) {
+  connection.query(`SELECT role .*, department.name AS department 
+  FROM role
+  LEFT JOIN department ON role.department_id = department.id`, function(err, res) {
       if(err) throw err;
       console.table(res);
       connection.end();
