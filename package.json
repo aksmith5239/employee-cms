@@ -7,11 +7,12 @@
     "console.table": "^0.10.0",
     "express": "^4.17.1",
     "inquirer": "^7.3.3",
+    "jest": "^26.5.3",
     "mysql2": "^2.2.5"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node index.js"
   },
   "repository": {

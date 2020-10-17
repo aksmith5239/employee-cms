@@ -17,10 +17,3 @@ connection.connect(err => {
 
 // listEmployeesManager();
 
-//Add an employee
-
-//Remove an employee
-
-//Update employee role
-
-//update employee manager
