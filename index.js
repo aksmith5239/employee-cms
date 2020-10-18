@@ -16,9 +16,6 @@ if(connection) {
   console.log("database connected");
 }
 
-// const {listEmployees, listEmployeesManager, listEmployeesTitle, listEmployeesDepartment} = require('./lib/Employees.js');
 
-// view all departments
 
-//view all managers
 
