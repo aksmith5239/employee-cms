@@ -20,6 +20,7 @@ INSERT INTO role (title, salary, department_id)
     ('Data Specialist', '30000.00', 3);
 
 INSERT INTO manager (first_name, last_name, title, department_id)
-    VALUES 'Speedy' 'Gonzales', 'Chief Analyst', 1),
-    ('Olive', 'Oyl', 'Legislative Tracking Supervisor', 2),
+    VALUES 
+    ('Speedy', 'Gonzales', 'Chief Analyst', 1),
+    ('Diana', 'Prince', 'Tracking Supervisor', 2),
     ('Wiley', 'Coyote', 'Data Systems Manager', 3);
