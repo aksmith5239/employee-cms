@@ -4,11 +4,8 @@ const cTable = require('console.table');
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'alli2968',
+    password: 'password',
     database: 'employees'
   });
-
-// connection.end();
-
 
 module.exports = connection;

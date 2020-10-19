@@ -1,19 +1,43 @@
-# employee-cms
+# Employee Contact Mangement System
 
-GIVEN a command-line application that accepts user input
-WHEN I start the application
-THEN I am presented with the following options: view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role
-WHEN I choose to view all departments
-THEN I am presented with a formatted table showing department names and department ids
-WHEN I choose to view all roles
-THEN I am presented with the job title, role id, the department that role belongs to, and the salary for that role
-WHEN I choose to view all employees
-THEN I am presented with a formatted table showing employee data, including employee ids, first names, last names, job titles, departments, salaries, and managers that the employees report to
-WHEN I choose to add a department
-THEN I am prompted to enter the name of the department and that department is added to the database
-WHEN I choose to add a role
-THEN I am prompted to enter the name, salary, and department for the role and that role is added to the database
-WHEN I choose to add an employee
-THEN I am prompted to enter the employee’s first name, last name, role, and manager and that employee is added to the database
-WHEN I choose to update an employee role
-THEN I am prompted to select an employee to update and their new role and this information is updated in the database 
+![github logo](https://img.shields.io/badge/license--orange.svg)
+
+
+## Description
+A command line application that allows the user to manage employees. When the user starts the application the user is presented with options to view employees, roles, departments and managers. When the user selects one of the lists to view then options for managing tasks for the list are presented to the user. When the user clicks on one of the tasks, the user can add an employee, update an employee, delete an employee, add managers, departments and roles.
+
+<img src="./lib/employee-cms.png" >
+
+<img src="./lib/employee-cms2.png" >
+
+***
+## Table of Contents
+[Installation](#installation)<br>
+[Usage](#usage)<br>
+[Contributing](#contributing)<br>
+[Tests](#tests)<br>
+[License](#license)<br>
+[Questions](#questions)<br>
+***
+## Installation
+To install the application run npm start from the command line
+
+## Usage
+This application is used to manage company employees
+
+## Contributing
+None at this time
+
+## Tests
+
+
+## License
+### This license is covered under the  license(s):
+* 
+***
+## Questions
+For more information contact me at:<br>
+* Name: aksmith5239
+* GitHub: git@github.com:aksmith5239/employee-cms.git
+* Email Address: aklobby@gmail.com
+    

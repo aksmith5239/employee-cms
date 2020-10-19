@@ -190,8 +190,7 @@ promptManagerActions = () => {
   .then(answers => {
     if(answers.managers === 'Add Manager') {
       console.log("Add Manager Here");
-      // listEmployees();
-      // promptLists();
+     
     } else if(answers.managers === 'Update Manager') {
       console.log("Update Manager Here");
 
@@ -292,7 +291,7 @@ addEmployee = () => {
       type: 'list',
       name: 'manager_id',
       message: "Enter the manager",
-      choices: [ 'Speedy Gonzales', 'Olive Oyl', 'Wiley Coyote']
+      choices: [ 'Speedy Gonzales', 'Diana Prince', 'Wiley Coyote']
 
     }
   ])
@@ -302,17 +301,6 @@ addEmployee = () => {
     const roleID = answers.role_id;
     var managerID = answers.manager_id;
 
-    // switch(roleID) {
-    //   case 'Analysis':
-    //     roleID = 1;
-    //     break;
-    //   case 'Tracking':
-    //     roleID = 2;
-    //     break; 
-    //   case 'Data':
-    //     roleID = 3;
-    //     break;   
-    // }
     switch(managerID) {
       case 'Speedy Gonzales':
         managerID = 1;
@@ -357,6 +345,7 @@ connection.promise().query(`SELECT last_name, id FROM employee`)
       choices: employees
 
     },
+
     {
       type: 'input',
       name: 'first_name',
@@ -380,7 +369,7 @@ connection.promise().query(`SELECT last_name, id FROM employee`)
       type: 'list',
       name: 'manager_id',
       message: "Enter the manager",
-      choices: [ 'Speedy Gonzales', 'Olive Oyl', 'Wiley Coyote']
+      choices: [ 'Speedy Gonzales', 'Diana Prince', 'Wiley Coyote']
 
     }
   ])
